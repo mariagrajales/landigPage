@@ -1,0 +1,298 @@
+@import url('https://fonts.cdnfonts.com/css/agbalumo');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h2{
+    color:white;
+    font-size: 45px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color:white; 
+    text-decoration: none;
+}
+
+a:hover{
+    color: orangered
+
+}
+
+header{
+    background-color: color-mix(in srgb, rgb(57, 57, 54) 50%, rgb(47, 47, 44) 50%);
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    z-index: 1;
+   
+}
+
+.img1{
+    height: 500px;
+    position: relative;
+    right: 100px;
+    clip-path: inset(0 10% 0% 10%);
+}
+
+.compra{
+    top: 50px;
+    position: relative;
+}
+.compraya{
+    margin: 50px;
+    display: flex;
+    font-family: 'Agbalumo', sans-serif;
+    color: rgb(29, 28, 28);
+}
+
+.parrafo{
+    margin-top: 100px;
+    width: 500px;
+    
+}
+
+.contain_mensajes{
+    text-align: center;
+    position: relative;
+    margin-left: -100px;
+}
+.boton{
+    width: 100px;
+    margin: 50px;
+    background-color: rgb(245, 206, 79);
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+    border-color: rgb(237, 133, 0);
+    font-family: 'Agbalumo', sans-serif;
+    color: black;
+    box-shadow: 0 0 5px 2px rgb(237, 133, 21)
+
+}
+
+.imagennaranja{
+    width: 900px;
+    margin-top: -447px;
+    margin-right: 100px;
+    z-index: -1;
+    position: fixed;
+    right: -500px;
+}
+
+.imagennaranja2{
+    width: 900px;
+    margin-top: -447px;
+    margin-left: -2000px;
+    z-index: -1;
+    position: fixed;
+    right: 1000px;   
+}
+
+.unete{
+    color: black;
+    text-align: center;
+    top: 200px;
+    font-family: 'Agbalumo', sans-serif;
+    margin-bottom: 100px;
+}
+
+.destacado {
+    color: red;
+  }
+
+.contain_mochila{
+    display: flex;
+    text-align: center;
+}
+.producto2{
+    height: 300px;
+    margin-left: 40px;
+}
+
+.contenedor_circulo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;   
+    width: 130px;
+    height: 130px;
+    background-color: rgb(75, 73, 69);
+    margin: 20px;
+    font-family: 'Agbalumo', sans-serif;
+    box-shadow: 0 0 1px 1px;
+    -webkit-text-stroke: 0.5px rgb(1, 1, 1);
+}
+
+.circulo_precio{
+    color: rgb(255, 255, 255);
+}
+.contain_seccion_mochila{
+    margin-left: 150px;
+}
+
+.contain_mensaje_mochila{
+    position: relative;
+    margin-left: 100px;
+    width: 300px;
+}
+
+.contain__mensaje{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300PX;
+
+}
+
+.plus{
+    color: red;
+    font-family: 'Agbalumo', sans-serif;
+
+}
+.texto_de_mochila{
+    width: 300px;
+    font-size: 24px;
+    font-family: 'Agbalumo', sans-serif;
+
+}
+.o{
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    color: black;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.producto {
+    border: 2px solid #878686; /* Borde del cuadro */
+    padding: 15px; /* Espaciado interno */
+    text-align: center;
+    height: 250px;
+    width: 200px; /* Ancho del cuadro, ajusta según sea necesario */
+    margin: 30px; /* Margen exterior */
+    background-color: #f1f1f1;
+    border-radius: 10px;
+  }
+
+  .contenedor_imagen{
+    height: 150px;
+    margin-bottom: 10px;
+  }
+
+  .productoimg {
+    max-height: 100%;
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+  }
+
+  .nombre-producto {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .precio {
+    color: green; 
+    margin-bottom: 10px; 
+  }
+
+  .boton-comprar {
+    background-color: green; 
+    color: white; 
+    padding: 8px 16px; 
+    border: none; 
+    cursor: pointer;
+    border-radius: 10px;
+    
+  }
+
+
+  .contain_productos{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.sobre{
+    text-align: center;
+    color: black;
+    font-family: 'Agbalumo', sans-serif;
+    margin-top: 300px;
+    
+}
+
+.pa{
+    text-align: right;
+    text-align: center;
+}
+
+.hoja{
+    margin-left: 4px;
+}
+
+.cont{
+    text-align: center;
+    color: #000;
+    margin-top: 200px;
+    font-family: 'Agbalumo', sans-serif;
+}
+
+.carta{
+    margin-left: 600px;
+}
+
+.con{
+    text-align: center;
+}
+
+.as{
+   margin-left: 940px;
+   display: flex;
+}
+
+.compra{
+    margin-top: 90px;
+}
+
+.unete{
+    margin-top: 200px;
+}
+
+.img1{
+    margin-top: 50px;
+}
+
+.sobre{
+    margin-bottom: 100px;
+    
+}
+
+.sobret{
+    text-align: center;
+    color: #000;
+}
+
